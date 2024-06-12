@@ -1,0 +1,23 @@
+.LoadCards{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 30px;
+    .LoadCard{
+        width: 370px;
+        height: 459px;
+        border-radius: 5px 0px 0px 0px;
+        border: 1px 0px 0px 0px;
+        background-color: #ddd;
+        background: linear-gradient(90deg, #f7f7f7, #ddd, #f7f7f7);
+        background-size: 200%;
+        animation: skeletonAnime 1s linear 0s infinite;
+    }
+}
+
+  
+@keyframes LoadCard {
+    to {
+      background-position: 200%;
+    }
+  }

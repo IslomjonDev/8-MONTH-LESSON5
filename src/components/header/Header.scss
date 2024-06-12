@@ -1,0 +1,50 @@
+.header__top{
+    background: #F7EBE5;
+    padding: 10px;
+    .top__content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .top__list{
+        display: flex;
+        gap: 14px;
+        a{
+            color: #000000C9;
+        }
+    }
+    span{
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        svg{
+            font-size: 20px;
+        }
+        select{
+            background-color: transparent;
+            border: none;
+            outline: none;
+            padding: 6px;
+        }
+    }
+    .list__right{
+        display: flex;
+        gap: 30px;
+    }
+}
+
+.header__bottom{
+    background-color: #FFFFFF;
+    .bot__list{
+        display: flex;
+        align-items: center;
+        gap: 35px;
+        justify-content: center;
+        padding: 18px 0;
+        select{
+            border: none;
+            background-color: transparent;
+            outline: none;
+        }
+    }
+}

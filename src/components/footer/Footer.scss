@@ -1,0 +1,41 @@
+footer{
+    background: #EBEDEE;
+    padding: 50px 0;
+  .footer__content{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+  }
+    .df{
+        display: flex;
+        margin-bottom: 58px;
+        align-items: center;
+        span{
+            width: 140px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 15px;
+        }
+    }
+    .fot2{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 170px;
+    }
+    .fot3{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        .icons{
+            margin-top: 50px;
+            display: flex;
+            gap: 20px;
+            svg{
+                font-size: 22px;
+            }
+        }
+    }
+}
